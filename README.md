@@ -5,16 +5,18 @@ How to use
 
 1. Add this line of code to your project gradle file
 
-maven{url "https://jitpack.io}
+
+```maven{url "https://jitpack.io}```
 
 2. Add dependency to your module gradle file
 
- implementation 'com.github.Tristankluivert:Fonta:2.0'
+```implementation 'com.github.Tristankluivert:Fonta:2.0'```
 
 3. Using it in your layouts
 
 //NexaLight font
 
+```xml
 <hybrid.ng.fonta.NexaFont 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +37,7 @@ maven{url "https://jitpack.io}
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-/>
+/>```
 
 License
 --------
