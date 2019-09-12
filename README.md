@@ -14,7 +14,7 @@ How to use
 
 3. Using it in your layouts
 
-//NexaLight font
+#NexaLight font
 
 ```xml
 <hybrid.ng.fonta.NexaFont 
@@ -23,7 +23,7 @@ How to use
         android:text="@string/app_name"
 />
 
-//Lato Regular Font
+#Lato Regular Font
 
 <hybrid.ng.fonta.LatoFont
         android:layout_width="wrap_content"
@@ -31,13 +31,16 @@ How to use
         android:text="@string/app_name"
 />
 
-//Roboto Regular Font
+#Roboto Regular Font
 
 <hybrid.ng.fonta.RoboFont
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-/>```
+/>
+```
+
+
 
 License
 --------
