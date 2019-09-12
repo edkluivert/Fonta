@@ -3,18 +3,35 @@ Font library for android developers
 
 How to use
 
-1. Add this line of code
+1. Add this line of code to your project gradle file
 
 maven{url "https://jitpack.io}
 
-2. Add dependency
+2. Add dependency to your module gradle file
 
  implementation 'com.github.Tristankluivert:Fonta:2.0'
 
 3. Using it in your layouts
 
+//NexaLight font
 
 <hybrid.ng.fonta.NexaFont 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+/>
+
+//Lato Regular Font
+
+<hybrid.ng.fonta.LatoFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+/>
+
+//Roboto Regular Font
+
+<hybrid.ng.fonta.RoboFont
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
