@@ -40,7 +40,8 @@ How to use
 />
 ```
 
-
+ 
+ Feel free to send a pull request
 
 License
 --------
